@@ -3,12 +3,7 @@
 
 int main() {
     // Declare variables
-    double initial_population; 
-    double percentage_increase; // Percentage increase over known time
-    double known_time; // Time for the known increase (years)
-    double target_time; // Time to calculate the population (years)
-    double growth_rate; // Growth rate (k)
-    double calculated_population; // Population after target time
+    double initial_population,percentage_increase,known_time,target_time,growth_rate,calculated_population; 
 
     printf("Enter the initial population: ");
     scanf("%lf", &initial_population);
